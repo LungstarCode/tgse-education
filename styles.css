@@ -224,7 +224,6 @@ button {
 }
 
 
-
 #founder-img {
     width: 200px;
     border-radius: 50%;
@@ -337,6 +336,11 @@ footer {
     width: 60%;
 }
 
+#short-description {
+    width: 60%;
+    margin: auto;
+}
+
 .ways-to-help {
     width: 95%;
     display: flex;
@@ -360,11 +364,11 @@ footer {
 }
 
 .help-option p {
-    padding: 5px;
+    padding-top: 5px;
 }
 
 .cta-link {
-    padding-left: 5px;
+    padding-top: 5px;
     color: var(--textMainColor);
 }
 
@@ -444,7 +448,10 @@ footer {
         padding:10px;
         width: 100%;  
     }
-
+    #short-description {
+        width: 90%;
+        margin: auto;
+    }
     .help-option h2 {
         background-color: var(--background2);
         color: black;
