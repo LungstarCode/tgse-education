@@ -132,10 +132,11 @@ nav ul li a:hover {
     
 }
 
-#home-card {
+.home-card {
     width: 35%;
     height: cover;
     padding: 20px;
+    line-height: 40px;
     margin: 10px;
     background-color: var(--background2);
     border-radius: 20px;
@@ -172,7 +173,7 @@ nav ul li a:hover {
 }
 
 
-#card-img {
+.card-img {
     width: 100%;
     height: 150px;
     border-radius: 10px;
@@ -192,24 +193,29 @@ button {
 #read-more {
     margin-top: 15px;
 }
+#get-started {
+    margin-top: 15px;
+}
+
 #Subscribe {
     background-color: var(--background2);
     width: 100%;
     color: black;
+    
 }
 
 #subscribe-field {
     padding: 10px;
     border-radius: 6px;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-top: 10px;
     width: 100%;
     
 }
 .founder-word {
     width: 90%;
-    margin: 0 auto;
+    margin: 30px auto;
     padding: 10px;
     display: flex;
     gap: 20px;
@@ -271,6 +277,7 @@ footer {
     height: cover;
     color: var(--textSecondaryColor);
     font-size: 24px;
+    margin-bottom: 40px;
    
 }
 
@@ -316,6 +323,8 @@ footer {
 
 
 @media (max-width: 768px) {
+
+
     .header-container {
         display: flex;
         flex-direction: column;
@@ -334,7 +343,7 @@ footer {
         margin: 0 auto;
     }
 
-    #home-card {
+    .home-card {
         width: 90%;
     }
 
@@ -361,5 +370,6 @@ footer {
         display: flex;
         flex-direction: column;
         text-align: center;
+       
     }
 }
