@@ -347,14 +347,25 @@ footer {
 
 .help-option {
     padding:10px;
+    width: 25%;
+    overflow: wrap;
 }
 
 .help-option h2 {
-    background-color: var(--background2);
+    
     padding: 5px;
-    color: var(--textSecondaryColor);
+    color: var(--textMainColor);
     border-radius: 2px;
     box-shadow: 0 0 10px rgba(0 , 0 , 0 , .9);
+}
+
+.help-option p {
+    padding: 5px;
+}
+
+.cta-link {
+    padding-left: 5px;
+    color: var(--textMainColor);
 }
 
 
@@ -427,5 +438,15 @@ footer {
         flex-direction: column;
         margin: auto;
 
+    }
+
+    .help-option {
+        padding:10px;
+        width: 100%;  
+    }
+
+    .help-option h2 {
+        background-color: var(--background2);
+        color: black;
     }
 }
