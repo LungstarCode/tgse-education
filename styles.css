@@ -44,7 +44,7 @@ body {
     justify-content: space-evenly;
     width: 90%;
     margin: auto;   
-    padding-top: 210px;
+    padding-top: 140px;
 }
 
 #header-text {
@@ -324,6 +324,40 @@ footer {
 }
 
 
+/*GET INVOLEVED PAGE*/
+
+.intro {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.into h1 {
+    width: 60%;
+}
+
+.ways-to-help {
+    width: 95%;
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    margin: auto;
+}
+
+.help-option {
+    padding:10px;
+}
+
+.help-option h2 {
+    background-color: var(--background2);
+    padding: 5px;
+    color: var(--textSecondaryColor);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0 , 0 , 0 , .9);
+}
+
+
 @media (max-width: 768px) {
 
 
@@ -384,5 +418,14 @@ footer {
 
     .top-nav {
         display: none;
+    }
+
+    /*Get involved page styles*/
+
+    .ways-to-help {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
     }
 }
