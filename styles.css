@@ -39,6 +39,12 @@ body {
     display: flex;
 }
 
+#sun-icon {
+    color: orangered;
+    margin-top: 30px;
+    
+}
+
 .header-container {
     display: flex;
     justify-content: space-evenly;
