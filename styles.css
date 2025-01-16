@@ -392,10 +392,15 @@ footer {
     .card-container {
         flex-direction: column;
         margin: 0 auto;
+        width: 100%;
     }
 
     .home-card {
-        width: 90%;
+        width: 100%;
+    }
+
+    .home-card p {
+        line-height: 20px;
     }
 
     #side-info {
@@ -408,8 +413,8 @@ footer {
     }
 
     .f-section {
-        width: 95%;
-        margin-bottom: 20px;
+        width: 100%;
+        margin-bottom: 10px;
     }
 
     .f-section h3 {
